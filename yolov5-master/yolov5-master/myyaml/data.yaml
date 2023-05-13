@@ -1,0 +1,14 @@
+train: mydate\\mydate\\mydate\\images\\train2
+val: mydate\\mydate\\mydate\\images\\train2
+# test: mydate\mydate\mydate\images\train2
+
+nc: 8
+# names: ['OK', 'fist', 'one', 'palm', 'peace', 'rock', 'stop', 'three2']
+names: ['left', 'stop', 'foward', 'rise or fall', 'back', 'rotate', 'clip or release', 'right']
+
+# roboflow:
+#   workspace: southwest-petroleum-university
+#   project: gesture-cyqep
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/southwest-petroleum-university/gesture-cyqep/dataset/3
